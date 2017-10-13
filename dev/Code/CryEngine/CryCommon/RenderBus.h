@@ -30,7 +30,7 @@ namespace AZ
 
         //////////////////////////////////////////////////////////////////////////
         // EBusTraits overrides
-        static const AZ::EBusHandlerPolicy HandlerPolicy = AZ::EBusHandlerPolicy::Single;
+        static const AZ::EBusHandlerPolicy HandlerPolicy = AZ::EBusHandlerPolicy::Multiple;
         //////////////////////////////////////////////////////////////////////////
 
         /*
