@@ -98,20 +98,33 @@
 
 # Make an exception to ignore specific directories
 # Most of these directories are brought in by executing git_bootstrap.
+/SetupAssistant.bat
 /3rdParty
+/dev/AssetProcessorTemp/
 /dev/Bin64*
 /dev/Bin64vc120*
 /dev/Bin64vc140*
 /dev/BinTemp
 /dev/Cache
+/dev/Code/SDKs
+/dev/Code/Sandbox/SDKs
+/dev/Code/Tools/SDKs 
 /dev/FeatureTests
 /dev/SamplesProject
 /dev/Solitaire
 /dev/Solutions
+/dev/SessionStatus
 /dev/MultiplayerSample
 /dev/MultiplayerProject
 /dev/Gems/GameEffectSystem
 /dev/Gems/Oculus
 /dev/Gems/OpenVR
 /dev/Gems/PBSreferenceMaterials
+
+/dev/Editor/editoreventlog.xml
+/dev/Editor/editorlayout.xml
+/dev/SetupAssistantUserPreferences.ini
+/dev/UserSettings.xml
+/dev/_WAF_/environment.json
 /dev/Gems/Substance
+/dev/Tools/CrySCompileServer/x64/debug_dedicated/
