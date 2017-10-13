@@ -99,11 +99,15 @@
 # Make an exception to ignore specific directories
 # Most of these directories are brought in by executing git_bootstrap.
 /3rdParty
-/dev/Bin64
-/dev/Bin64vc120
-/dev/Bin64vc140
+/dev/Bin64*
+/dev/Bin64vc120*
+/dev/Bin64vc140*
+/dev/BinTemp
+/dev/Cache
 /dev/FeatureTests
 /dev/SamplesProject
+/dev/Solitaire
+/dev/Solutions
 /dev/MultiplayerSample
 /dev/MultiplayerProject
 /dev/Gems/GameEffectSystem
